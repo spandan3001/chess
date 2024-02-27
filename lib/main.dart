@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'features/home/home/ui/home_screen.dart';
+import 'ui/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'CHESS APP',
       theme: ThemeData(
-
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        primaryColor: Colors.green,
+        secondaryHeaderColor: Colors.white,
       ),
       home: const HomeScreen(),
     );
