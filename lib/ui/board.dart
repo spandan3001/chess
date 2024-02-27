@@ -1,7 +1,7 @@
 import 'package:chess/bloc/chess_board/chess_board_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../chess_board_controller.dart';
+import '../features/chess_board_controller.dart';
 import '../features/arrow.dart';
 import '../features/chess.dart' hide State;
 import '../features/chess_pieces.dart';

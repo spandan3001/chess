@@ -1,4 +1,4 @@
-import 'package:chess/chess_board_controller.dart';
+import 'package:chess/features/chess_board_controller.dart';
 import 'package:chess/ui/board.dart';
 import 'package:chess/features/chess.dart' hide State;
 import 'package:flutter/material.dart';
